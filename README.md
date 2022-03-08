@@ -26,7 +26,7 @@ Os usuários devem ser capazes de:
 
 ### Tela - Responsiva (Desktop X Mobile)
 
-![enter image description here](https://github.com/amromanel/validacao-formulario/blob/main/gif/gif-formulario.gif?raw=true)
+![enter image description here](https://github.com/amromanel/desafio-frontendmentor-Formulario/blob/main/gif/desafio-frontendmentor.gif?raw=true)
 
   ### Tecnologias Ulitizadas
   
