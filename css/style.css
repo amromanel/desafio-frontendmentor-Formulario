@@ -153,12 +153,15 @@ body {
 }
 
 @media (max-width: 767px) {
-    
+    body{
+margin: auto;
+}
     .container {
         width: 100%;
         flex: 25%;
         padding: 20px;
         flex-direction: column;
+margin: auto;
     }
     #item1 {
         margin: auto;
