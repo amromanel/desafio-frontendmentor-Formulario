@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background: url(../images/bg-intro-desktop.png), linear-gradient(50deg, hsl(0, 100%, 74%), hsl(0, 100%, 74%));
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#item1 {
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    color: #fafafa;
+    justify-content: center;
+    align-items: center;
+}
+
+#item1 p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#item2 {
+    padding: 20px;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+}
+
+#header {
+    background-color: hsl(248, 32%, 49%);
+    color: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.3);
+    max-width: 100%;
+    overflow: hidden;
+    padding: 25px;
+    margin: 20px;
+    width: 100%;
+}
+
+#form button {
+    background-color: hsl(154, 59%, 51%);
+    border: 2px solid hsl(154, 59%, 51%);
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    padding: 10px;
+}
+
+.form-control i {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    visibility: hidden;
+}
+
+#form legend {
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.form-control small {
+    position: absolute;
+    bottom: 0;
+    top: 55px;
+    right: 5px;
+    font-size: 10px;
+    visibility: hidden;
+}
+
+.form-control.success input {
+    border-color: hsl(154, 59%, 51%);
+}
+
+.form-control.error input {
+    border-color: hsl(0, 100%, 74%);
+}
+
+.form-control.error i.fa-check-circle {
+    color: hsl(0, 100%, 74%);
+    visibility: visible;
+}
+
+.form-control.success i.fa-exclamation-circle {
+    color: hsl(154, 59%, 51%);
+    visibility: visible;
+}
+
+.form-control.error small {
+    color: hsl(0, 100%, 74%);
+    visibility: visible;
+}
+
+.form-control.error ::placeholder {
+    visibility: hidden;
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 100%;
+        flex: 25%;
+        padding: 20px;
+        flex-direction: column;
+    }
+    #item1 {
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        font-size: 10px;
+    }
+    #form {
+        align-items: center;
+        margin: auto;
+    }
+    #header {
+        align-items: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    #form legend {
+        font-size: 8px;
+    }
+}
