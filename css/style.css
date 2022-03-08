@@ -152,7 +152,7 @@ body {
     visibility: hidden;
 }
 
-@media (max-width: 767px) {
+@media (min-width:375px),(max-width: 1440px) {
     body{
 margin: auto;
 }
