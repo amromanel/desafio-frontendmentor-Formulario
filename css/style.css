@@ -152,7 +152,8 @@ body {
     visibility: hidden;
 }
 
-@media (max-width: 375px) {
+@media (min-widht:1440px),
+(max-width: 320px) {
     .container {
         width: 100%;
         flex: 25%;
