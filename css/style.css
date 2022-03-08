@@ -154,6 +154,9 @@ body {
 
 @media (min-widht:1440px),
 (max-width: 400px) {
+     body {
+        width: 100%;
+    }
     .container {
         width: 100%;
         flex: 25%;
